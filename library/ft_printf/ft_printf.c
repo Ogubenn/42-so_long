@@ -6,7 +6,7 @@
 /*   By: ogdurkan <ogdurkan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/11 14:51:48 by ogdurkan          #+#    #+#             */
-/*   Updated: 2023/07/11 14:51:50 by ogdurkan         ###   ########.fr       */
+/*   Updated: 2023/08/02 00:20:58 by ogdurkan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,9 +28,9 @@ t_base	ft_create_base(char format)
 	else
 	{
 		if (format == 'X')
-		base.base = "0123456789ABCDEF";
+			base.base = "0123456789ABCDEF";
 		else
-		base.base = "0123456789abcdef";
+			base.base = "0123456789abcdef";
 		base.base_length = 16;
 	}
 	return (base);

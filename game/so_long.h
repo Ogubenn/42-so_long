@@ -6,7 +6,7 @@
 /*   By: ogdurkan <ogdurkan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/11 14:50:16 by ogdurkan          #+#    #+#             */
-/*   Updated: 2023/07/11 14:50:18 by ogdurkan         ###   ########.fr       */
+/*   Updated: 2023/08/02 00:20:04 by ogdurkan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,12 +17,12 @@
 # define S 1
 # define D 2
 # define ESC 53
-# define SPACE '0'
-# define WALL '1'
-# define COLLECTIBLE 'C'
-# define EXIT 'E'
-# define PLAYER 'P'
-# define CONTROL 'T'
+# define SPACE 48
+# define WALL 49
+# define COLLECTIBLE 67
+# define EXIT 69
+# define PLAYER 80
+# define CONTROL 84
 # include "structs.h"
 # include "../library/mlx/mlx.h"
 # include "../library/ft_printf/ft_printf.h"
